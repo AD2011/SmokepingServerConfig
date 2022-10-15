@@ -1,0 +1,2 @@
+# SmokepingServerConfig
+Smokeping Server Config
