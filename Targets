@@ -5,7 +5,7 @@ probe = FPing
 menu = Top
 title = Network Latency Grapher
 remark = Welcome to the SmokePing. \
-         Here you will learn all about the latency to India from my Alibaba SGP server.
+         Here you will learn all about the latency to India from my <Insert Server Name>.
 
 + SpeedTestServers
 
@@ -122,6 +122,40 @@ menu = WSNLBroadband(Airtel)
 title = WSNLBroadband
 host = speedtest-kolkata.wsnlbroadband.in
 
++ PersonalSites
+
+menu = Personal Sites
+title = Personal Sites
+
+++ oci-mar
+menu = Oracle Cloud Marseille
+title = Oracle Cloud Marseille
+host = oci-mar.abirdey.com
+
+++ oci-mum
+menu = Oracle Cloud Mumbai
+title = Oracle Cloud Mumbai
+host = oci-mum.abirdey.com
+
+++ oci-osaka
+menu = Oracle Cloud Osaka
+title = Oracle Cloud Osaka
+host = oci-osaka.abirdey.com
+
+++ alibaba
+menu = Alibaba Cloud Silicon Valley
+title = Alibaba Cloud Silicon Valley
+host = alibaba.abirdey.com
+
+++ aws-ohio
+menu = AWS Ohio
+title = AWS Ohio
+host = aws-ohio.abirdey.com
+
+++ azure-hk
+menu = Azure HongKong
+title = Azure HongKong
+host = azure-hk.abirdey.com
 
 + InternetSites
 
