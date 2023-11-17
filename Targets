@@ -17,22 +17,22 @@ title = SpeedTest Servers
 menu = Kolkata SpeedTest Servers
 title = Kolkata SpeedTest Servers
 
-+++ AllianceBroadband(speedtest)
++++ AllianceBroadbandSpeedtest
 
-menu = Alliance Broadband(TATA)
-title = Alliance Broadband(speedtest.alliancebroadband.in)
+menu = AllianceBB Speedtest(TATA)
+title = AllianceBB(speedtest.alliancebroadband.in)
 host = speedtest.alliancebroadband.in
 
-+++ AllianceBroadband(User IP)
++++ AllianceBroadbandUser
 
-menu = Alliance Broadband(TATA)
-title = Alliance Broadband(150.107.176.81)
+menu = AllianceBB User(TATA)
+title = AllianceBB(150.107.176.81)
 host = 150.107.176.81
 
-+++ AllianceBroadband(Airtel)
++++ AllianceBroadbandAirtel
 
-menu = Alliance Broadband(Airtel)
-title = Alliance Broadband(alliance-air.abirdey.com)
+menu = AllianceBB (Airtel)
+title = AllianceBB(alliance-air.abirdey.com)
 host = alliance-air.abirdey.com
 
 +++ WishnetBB
