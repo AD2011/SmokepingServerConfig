@@ -5,7 +5,7 @@ probe = FPing
 menu = Top
 title = Network Latency Grapher
 remark = Welcome to the SmokePing. \
-         Server: $(hostname) 
+         Server: %(hostname)
 
 + SpeedTestServers
 
@@ -17,11 +17,23 @@ title = SpeedTest Servers
 menu = Kolkata SpeedTest Servers
 title = Kolkata SpeedTest Servers
 
-+++ AllianceBroadband
++++ AllianceBroadband(speedtest)
 
 menu = Alliance Broadband(TATA)
-title = Alliance Broadband
+title = Alliance Broadband(speedtest.alliancebroadband.in)
 host = speedtest.alliancebroadband.in
+
++++ AllianceBroadband(User IP)
+
+menu = Alliance Broadband(TATA)
+title = Alliance Broadband(150.107.176.81)
+host = 150.107.176.81
+
++++ AllianceBroadband(Airtel)
+
+menu = Alliance Broadband(Airtel)
+title = Alliance Broadband(alliance-air.abirdey.com)
+host = alliance-air.abirdey.com
 
 +++ WishnetBB
 
@@ -40,23 +52,11 @@ menu = Airtel(AIRTEL)
 title = Airtel
 host = speedtestkol1.airtel.in
 
-+++ AirtelBroadband
-
-menu = AirtelBB(AIRTEL)
-title = AirtelBB
-host = speedtestkol.airtelbroadband.in
-
 +++ TataPlayFiber
 
 menu = TataPlayFiber(TATA)
 title = TataPlayFiber
 host = speedtestkolkata.tataplayfiber.co.in
-
-+++ Vi
-
-menu = Vi
-title = Vi
-host = speedtestkol.vodafone.ind.in
 
 +++ IndinetBroadband
 
@@ -76,16 +76,21 @@ menu = Meghbela(TTSL)
 title = Meghbela
 host = speedtest.meghbelabroadband.in
 
-+++ Sistemos
-
-menu = Sistemos(Airtel)
-title = Sistemos
-host = kolkata.sistemos.in
++++ RailTel
+menu = RailTel(Jio)
+title = RailTel
+host = kol.speedtest.rcil.gov.in
 
 +++ IshanNetsol
 menu = Ishan(TATA)
 title = IshanNetsol
 host = kolkata-speedtest.ishancloud.com
+
++++ SpeednetUnique
+
+menu = SpeednetUnique(TATA)
+title = SpeednetUnique
+host = speedtest.speednetkolkata.com
 
 +++ FABNET
 
@@ -93,22 +98,17 @@ menu = FABNETKolkata(TATA)
 title = FABNET
 host = 103.154.234.235
 
-+++ RailTel
-menu = RailTel(Jio)
-title = RailTel
-host = kol.speedtest.rcil.gov.in
-
 +++ OneBroadband
 
 menu = OneBroadband(TATA)
 title = OneBroadband
 host = in2kolkata.in2cable.com
 
-+++ SpeednetUnique
++++ Sistemos
 
-menu = SpeednetUnique(TATA)
-title = SpeednetUnique
-host = speedtest.speednetkolkata.com
+menu = Sistemos(Airtel)
+title = Sistemos
+host = speedtest.sistemos.in
 
 +++ MicrotalkCommunications
 
@@ -382,23 +382,3 @@ host = 4.2.2.2
 menu = Quad9
 title = Quad9 DNS 9.9.9.9
 host = 9.9.9.9
-
-+ SpeedTest
-menu = Speed Tests
-title = Speed Tests
-
-++ Download
-menu = Download
-title = Download
-probe = speedtest-download
-measurement = download
-host = dummy.com
-#server = 1737
-
-++ Upload
-menu = Upload
-title = Upload
-probe = speedtest-upload
-measurement = upload
-host = dummy.com
-#server = 1737
