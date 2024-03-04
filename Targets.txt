@@ -112,6 +112,85 @@ menu = linuxserver.io
 title = linuxserver.io
 host = linuxserver.io
 
++ Asia
+
+menu = Asia
+title = Asia Connectivity
+
+++ Singapore
+
+menu = Singapore
+title = Singapore
+
++++ SGgs
+
+menu = SG.GS
+title = SG.GS
+host = network.sg.gs
+
++++ Singtel
+
+menu = Singtel
+title = Singtel
+host = speedtest.singnet.com.sg
+
++++ StarHub
+
+menu = StarHub
+title = StarHub
+host = broadbandspeedtestuat.starhub.com
+
++++ Contabo
+
+menu = Contabo
+title = Contabo
+host = sin.speedtest.contabo.net
+
+++ Thailand
+
+menu = Thailand
+title = Thailand
+
++++ AISFiber
+menu = AISFiber
+title = AISFiber Bangkok
+host = tlssp1.myaisfibre.com
+
++++ 3BB
+menu = 3BB
+title = 3BB Bangkok
+host = speedtest-sp1.3bb.co.th
+
++++ DTAC
+menu = DTAC
+title = DTAC Bangkok
+host = speedtest5.dtacnetwork.co.th	
+
+++ Japan
+
+menu = Japan
+title = Japan
+
++++ JAIST
+menu = JAIST
+title = JAIST
+host = ftp.jaist.ac.jp
+
++++ YamagataU
+menu = Yamagata University
+title = Yamagata University
+host = ftp.yz.yamagata-u.ac.jp
+
++++ IPACyberlab
+menu = IPA CyberLab 400G
+title = IPA CyberLab 400G
+host = speed.udx.icscoe.jp
+
++++ fdcserversJapan
+menu = fdcservers Tokyo
+title = fdcservers Toyko
+host = lg-tok.fdcservers.net
+
 + Europe
 
 menu = Europe
